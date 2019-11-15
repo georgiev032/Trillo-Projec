@@ -359,7 +359,7 @@
 
         span {
             margin-left: 8px;
-            transition: margin-left .2s; // we add the animation
+            transition: margin-left .2s; 
         }
     }
 
@@ -455,7 +455,7 @@
         border-radius: 50%;
         border: 3px solid #fff;
 
-        // when we give margin right - to all but not the last one, we put photos on the top of each other and create the effect like in facebook.And we make all this combination with border in &__photo for the white space between them and border-sizing - defult.
+        // when we give margin right - to all but not to the last one, we put photos on the top of each other and create the effect like in facebook.And we make all this combination with border in &__photo for the white space between them and border-sizing - defult.
         &:not(:last-child) {
             margin-right: -2rem;
         }
@@ -502,7 +502,7 @@
 
     &__user-name {
         font-size: 1.1rem;
-        font-weight: 600; // instead to use bold tag we use higher number of font weight.
+        font-weight: 600;
         text-transform: uppercase;
         margin-bottom: .4rem;
     }
@@ -584,7 +584,7 @@
     }
 
     &:hover &__visible {
-        transform: translateY(100%); // translete to the down - Y.
+        transform: translateY(100%);
     }
 
     &:hover &__invisible {
